@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins;
+}
+body{
+    background-color: #f4dccc;
+}
+.container ,.timerWork , .todoList {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    
+}
+#timer , #start, #end, #reset ,#add , #enter, li{
+    font-size: 20px;
+    padding: 10px;
+}
+#end , #reset{
+    margin-left: 20px;
+}
+
+
+
+li::marker{
+    color: #a87e62;
+}
+
+h1{
+     color: #542414;
+}
+button{
+    background-color: #a87e62;
+    border-radius: 20px;
+}
+#enter{
+    border-radius: 20px;
+    background-color: #f4dccc;
+}
+.timerWork , .todoList{
+    background-color: white;
+    border: 2px solid;
+    padding: 20px;
+    border-radius: 50px;
+    border-color: #a87e62;
+}
